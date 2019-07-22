@@ -11,7 +11,7 @@ For face detection I specifically used Faceapi.js and it's 3 models - SSD Mobile
 
 ## Description of the models used
 
-SDD model works as a face detector basically, it detetcts if a human face is present in the image or not. Since my problem statement demanded only one human face per image so I specifically used SingleFaceDetector(). 
+SSD model works as a face detector basically, it detetcts if a human face is present in the image or not. Since my problem statement demanded only one human face per image so I specifically used SingleFaceDetector(). 
 
 Face Landmark model detects the facial landmarks very efficiently, one just have to adjust the size of the canvas chosen equal to the dimensions of the input image.
 
