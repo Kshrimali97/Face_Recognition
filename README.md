@@ -2,7 +2,7 @@
 Built this Face Recognition model for Grace Hopper Celebration, India AI Codeathon 2019.
 
 To run this project on your machine, you should be having Xampp installed on it.
-I have used Xampp as it makes very easiy for developers to create a web server locally on one's laptop. Also it contains MySQL module, which can be used to create database and later to link that with our code.
+I have used Xampp(Apache) as it makes very easiy for developers to create a web server locally on one's laptop. Also it contains MySQL module, which can be used to create database and later to link that with our code.
 
 ## API Used
 
