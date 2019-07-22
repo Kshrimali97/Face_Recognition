@@ -16,3 +16,11 @@ SDD model works as a face detector basically, it detetcts if a human face is pre
 Face Landmark model detects the facial landmarks very efficiently, one just have to adjust the size of the canvas chosen equal to the dimensions of the input image.
 
 The last model used is Face Recognition which compares the input face with the faces present in our database and accordinly tells us the results.
+
+## db_images folder
+
+The db_images is the collection of all the images which are stored in our MySQL Datbase (Just like in normal voting system, our voter id's are stored in the databases similarly in our problem, that is the E-voting system, people's aadhar card or Driving License images are stored in the database)
+
+## Test_Voters_WebCam_Images
+
+This folder contains the web scanned images of all the voters who have arived to cast a vote. If their face is matched with a face image present in the database then they will be allowed to vote otherwise not!
