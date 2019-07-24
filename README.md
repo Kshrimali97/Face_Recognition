@@ -17,6 +17,10 @@ Face Landmark model detects the facial landmarks very efficiently, one just have
 
 The last model used is Face Recognition which compares the input face with the faces present in our database and accordinly tells us the results.
 
+## index.php 
+
+This file contains the code for face detection, adding face landmarks and face recognition. Along with this it also contains the code for fraud detection i.e detecting and blocking multiple times voting by the same person and it also checks and verifies the identity of the voter.
+
 ## db_images folder
 
 The db_images is the collection of all the images which are stored in our MySQL Datbase (Just like in normal voting system, our voter id's are stored in the databases similarly in our problem, that is the E-voting system, people's aadhar card or Driving License images are stored in the database)
